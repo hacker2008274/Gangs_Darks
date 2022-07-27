@@ -9,6 +9,7 @@ echo "[+] installing python2 ..."
 pkg install python2
 echo "[+] installing perl ..."
 pkg install perl
+pkg install openssh
 echo -e "\033[4;91m[*] facebook : https://www.facebook.com/cyberviesociety186388252799292\033[0m"                                                                               sleep 5
 echo -e "\033[4;91m[•] We are Cyber VieSociety - Hackers VietNamese \033[0m"
 sleep 5
