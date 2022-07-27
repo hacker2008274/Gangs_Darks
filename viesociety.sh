@@ -103,8 +103,10 @@ curl https://wikileaks.org/sony/docs/bonus/1/Password/Accounts%20Passwords.txt
 sleep 9
 curl https://wikileaks.org/sony/docs/bonus/1/Password/Master%20Application%20List.txt
 sleep 5 
+figlet Scan vulners FTFD 
 ftp $TARGET
 sleep 4
+figlet Scan SSH
 ssh $TARGET:$PORT
 sleep 5
 echo "╔════════════════════════════════════════════════════════════════╗"
