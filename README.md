@@ -10,7 +10,7 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 3. việc sử dụng công cụ này chỉ vì lý do giáo dục
 4. mấy nhóc tricker lỏ đừng chôm source của anh 
 
-#Setup 
+# Setup 
 git clone https://github.com/hacker2008274/VieSociety_Vulners
 cd VieSociety_Vulners
 bash setup.sh
