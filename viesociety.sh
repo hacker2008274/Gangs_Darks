@@ -1,4 +1,4 @@
-#!/bin/bash
+Ơi#!/bin/bash
 # The Hackers RedGhost (Cyber VieSociety)
 #
 # Automated Intel-Gathering - Vulnerability Analysis - OSINT
@@ -34,6 +34,14 @@ sleep 3
 echo -e "\033[4;91m[©] i am Pham Chien\033[0m"
 sleep 3
 clear
+toilet --metal LOGIN TooLs
+echo -e "\e[1;34musername : \e[0m"
+read $USERNAME
+echo -e "\e[1;34mpasword : \e[0m"
+read $PASS
+echo -e "\e[1;34mIP address : \e[0m"
+read $IP
+clear
 echo -e "\e[1;34m██╗   ██╗██╗███████╗███████╗ ██████╗  ██████╗██╗███████╗████████╗██╗   ██╗\e[0m"
 echo -e "\e[1;34m██║   ██║██║██╔════╝██╔════╝██╔═══██╗██╔════╝██║██╔════╝╚══██╔══╝╚██╗ ██╔╝\e[0m"
 echo -e "\e[1;34m██║   ██║██║█████╗  ███████╗██║   ██║██║     ██║█████╗     ██║    ╚████╔╝ "
@@ -46,7 +54,7 @@ echo -e "\e[1;34m║  Thu thập Intel tự động - Phân tích lỗ hổng b�
 echo -e "\e[1;34m║ Theo dõi Liệt kê hệ thống Và Quá trình Ngũ hành Ngoài khóa học ║"
 echo -e "\e[1;34m╚════════════════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m╔════════════════════════════════════════════════════════════════╗"
-echo -e "\e[1;34m ║         Version : 1.0 | Codename : Pham Chien Cặk lõ         ║"
+echo -e "\e[1;34m ║         Version : 1.18.1 | Codename : Pham Chien Cặk lõ      ║"
 echo -e "\e[1;34m   ║    Coded by : CYBER VIESOCIETY | Tao là RedGhost Hackers  ║"
 echo -e "\e[1;34m    ║                    momo : 0978842516                   ║"
 echo -e "\e[1;34m     ║     Facebook : ID = cyberviesociety186388252799292   ║"
@@ -55,8 +63,12 @@ echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui v�
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
 echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
+echo [+] set link website : $TARGET
+echo ""
 echo -e "\033[4;91mĐiền Port vào đây : \033[0m "
 read PORT
+echo [+] set PORT website : $PORT
+echo ""
 echo "À mà khoan , trước khi khai thác , Phạm Chiến có đẹp Trai không ? :"
 read USER
 echo -e "ok , ok "
@@ -92,20 +104,20 @@ sleep 25
 echo ""
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
 sleep 5
-figlet Scan DNS
+toilet --metal Scan DNS
 nmap --script safe $TARGET
-figlet Scan discovery
+toilet --gay Scan discovery
 nmap --script discovery $TARGET
-figlet Scan Vuln
+toilet --metal Scan Vuln
 nmap --script vuln $TARGET
-figlet Scan Brordcast
+toilet --gay Scan Brordcast
 nmap --script broadcast $TARGET
 nmap -sV --script freevulnsearch --script-args apipath=$TARGET
 echo "hacker pham chien"
 echo -e "\033[4;91m OSVDB-3092 - Lỗ hổng bảo mật cho phép kẻ tấn công ghi vào bất kỳ vị trí nào trong tệphệ thống.\033[0m "
-figlet Scan XML output
+toilet --gay Scan XML output
 nmap -T4 -A -p 1-1000 -oX - $TARGET
-figlet Scan Port
+toilet --metal Scan Port
 nmap $TARGET
 echo ""
 echo "╔════════════════════════════════════════════════════════════════╗"
