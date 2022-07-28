@@ -20,8 +20,19 @@
 #
 
 clear
-figlet Pham Chien
 echo ""
+echo -e "\033[4;91m[*] facebook : https://www.facebook.com/cyberviesociety186388252799292\033[0m"                                                     >
+echo -e "\033[4;91m[•] We are Cyber VieSociety - Hackers VietNamese \033[0m"
+sleep 5
+echo -e "\033[4;91m[$] telegram : 0978842516 \033[0m"
+sleep 5
+echo -e "\033[4;91m[$] momo : 0978842516 \033[0m"
+sleep 3
+echo -e "\033[4;91m[$] Agribank : 8800205311040 \033[0m"
+sleep 3
+echo -e "\033[4;91m[©] i am Pham Chien\033[0m"
+sleep 3
+clear
 echo -e "\e[1;34m██╗   ██╗██╗███████╗███████╗ ██████╗  ██████╗██╗███████╗████████╗██╗   ██╗\e[0m"
 echo -e "\e[1;34m██║   ██║██║██╔════╝██╔════╝██╔═══██╗██╔════╝██║██╔════╝╚══██╔══╝╚██╗ ██╔╝\e[0m"
 echo -e "\e[1;34m██║   ██║██║█████╗  ███████╗██║   ██║██║     ██║█████╗     ██║    ╚████╔╝ "
@@ -41,13 +52,13 @@ echo -e "\e[1;34m     ║     Facebook : ID = cyberviesociety186388252799292   �
 echo -e "\e[1;34m      ╚════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui vẻ =)) "
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
-echo -e "\033[4;91mđiền nạn nhân vào đây ( ví dụ : testphp.vulnweb.com) :\033[0m "
+echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
 echo -e "\033[4;91mĐiền Port vào đây , mấy thằng nhóc : \033[0m "
 read PORT
 echo "À mà khoan , trước khi khai thác , Phạm Chiến có đẹp Trai không ? :"
-read VICTIM
-echo -e " ok địt mẹ mày =))"
+read USER
+echo -e "ok , ok "
 echo -e "\e[1;34m╔════════════════════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[1;34m║                                                                ║\e[0m"
 echo -e "\e[1;34m║                          CẢNH BÁO                              ║\e[0m"
@@ -78,8 +89,11 @@ echo -e "\e[1;34m║                                         --PHAM CHIEN--     
 echo -e "\e[1;34m╚════════════════════════════════════════════════════════════════╝\e[0m"
 sleep 25
 echo ""
+echo -e "\033[4;91mexploiting $TARGET\033[0m"
+sleep 10
 echo "hacker pham chien"
 echo -e " \033[4;91mOSVDB-3092 - Lỗ hổng bảo mật cho phép kẻ tấn công ghi vào bất kỳ vị trí nào trong tệphệ thống.\033[0m "
+figlet Scan Port
 nmap $TARGET
 echo ""
 echo "╔════════════════════════════════════════════════════════════════╗"
