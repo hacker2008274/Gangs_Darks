@@ -32,3 +32,5 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 2. cd VieSociety_Vulners
 3. bash setup.sh
 4. ./viesociety.sh
+
+# testa
