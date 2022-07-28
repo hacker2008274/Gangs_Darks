@@ -99,7 +99,7 @@ nmap --script discovery $TARGET
 figlet Scan Vuln
 nmap --script vuln $TARGET
 figlet Scan Brordcast
-nmap --script broadcast
+nmap --script broadcast $TARGET
 nmap -sV --script freevulnsearch --script-args apipath=$TARGET
 echo "hacker pham chien"
 echo -e "\033[4;91m OSVDB-3092 - Lỗ hổng bảo mật cho phép kẻ tấn công ghi vào bất kỳ vị trí nào trong tệphệ thống.\033[0m "
