@@ -165,3 +165,5 @@ echo "║                     HOPE YOU ENJOY IT                          ║ "
 echo "║                       AND AS ALWAYS                            |"
 echo "║                       HAVE NICE DAY                            ║ "
 echo "╚════════════════════════════════════════════════════════════════╝"
+echo ""
+./viesociety.sh
