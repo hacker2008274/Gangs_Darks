@@ -2,12 +2,13 @@
 VieSociety _Vuners được viết bởi Phạm Chiến ngôn ngữ , script shell
 VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
 
-# Fham_Ghien
+# Đừng Chôm Source Của Phạm Chiến 
+Mấy ông trít lỏ đừng chôm source code của tui >:v
 
 
 # Chức năng
 1. scan port 
-2. định vị DNS và domain
+2. định vị DNS và hosting
 3. scan link sql 
 4. exploit FTPD
 5. exploit SSH
@@ -15,7 +16,8 @@ VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ
 7. scan XSS
 8. scan OSVDB 
 9. scan CVE 
-10. phân tích các lỗ hổng
+10. Scan xml output
+11. phân tích các lỗ hổng
 
 # cảnh báo 
 Tôi thực sự khuyên bạn nên sử dụng công cụ này bằng cách sử dụng Kali Linux OS Bằng cách sử dụng công cụ này, điều đó có nghĩa là bạn đồng ý với các điều khoản, điều kiện và rủi ro
@@ -34,3 +36,4 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 4. ./viesociety.sh
 
 # testa
+
