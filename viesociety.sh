@@ -36,11 +36,11 @@ sleep 3
 clear
 toilet --metal LOGIN TooLs
 echo -e "\e[1;34musername : \e[0m"
-read $USERNAME
+read USERNAME
 echo -e "\e[1;34mpasword : \e[0m"
-read $PASS
+read PASS
 echo -e "\e[1;34mIP address : \e[0m"
-read $IP
+read IP
 clear
 echo -e "\e[1;34m██╗   ██╗██╗███████╗███████╗ ██████╗  ██████╗██╗███████╗████████╗██╗   ██╗\e[0m"
 echo -e "\e[1;34m██║   ██║██║██╔════╝██╔════╝██╔═══██╗██╔════╝██║██╔════╝╚══██╔══╝╚██╗ ██╔╝\e[0m"
@@ -63,11 +63,11 @@ echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui v�
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
 echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
-echo [+] set link website : $TARGET
+echo -e "\e[1;34m[+] set link website : $TARGET"
 echo ""
 echo -e "\033[4;91mĐiền Port vào đây : \033[0m "
 read PORT
-echo [+] set PORT website : $PORT
+echo -e "\e[1;34m[+] set PORT website : $PORT"
 echo ""
 echo "À mà khoan , trước khi khai thác , Phạm Chiến có đẹp Trai không ? :"
 read USER
