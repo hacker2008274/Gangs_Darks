@@ -92,12 +92,14 @@ sleep 25
 echo ""
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
 sleep 5
-figlet Scan Domain and DNS
-nmap -sV $TARGET
+figlet Scan DNS
+nmap --script safe $TARGET
+figlet Scan discovery
+nmap --script discovery $TARGET
 figlet Scan Vuln
 nmap --script vuln $TARGET
-figlet scan vulnerability 2
-nmap --script ssh-brute -p $PORT $TARGET 
+figlet Scan Brordcast
+nmap --script broadcast
 nmap -sV --script freevulnsearch --script-args apipath=$TARGET
 echo "hacker pham chien"
 echo -e "\033[4;91m OSVDB-3092 - Lỗ hổng bảo mật cho phép kẻ tấn công ghi vào bất kỳ vị trí nào trong tệphệ thống.\033[0m "
