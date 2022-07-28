@@ -19,6 +19,8 @@
 # Use At Your Own Risk
 #
 
+clear
+figlet Pham Chien
 echo ""
 echo -e "\e[1;34m██╗   ██╗██╗███████╗███████╗ ██████╗  ██████╗██╗███████╗████████╗██╗   ██╗\e[0m"
 echo -e "\e[1;34m██║   ██║██║██╔════╝██╔════╝██╔═══██╗██╔════╝██║██╔════╝╚══██╔══╝╚██╗ ██╔╝\e[0m"
@@ -104,7 +106,7 @@ sleep 9
 curl https://wikileaks.org/sony/docs/bonus/1/Password/Master%20Application%20List.txt
 sleep 5 
 figlet Scan vulners FTFD 
-ftp $TARGET
+nmap -p 21 -A $TARGET
 sleep 4
 figlet Scan SSH
 ssh $TARGET:$PORT
