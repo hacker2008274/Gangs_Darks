@@ -6,16 +6,16 @@ VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ
 công cụ Khai thác lỗ hổng bảo mật
 
 # Chức năng
-1 : scan port 
-2 : định vị DNS và domain
-3 : scan link sql 
-4 : exploit FTPD
-5 : exploit SSH
-6 : scan user Wordpress 
-7 : scan XSS
-8 : scan OSVDB 
-9 : scan CVE 
-10: phân tích các lỗ hổng
+1. scan port 
+2. định vị DNS và domain
+3. scan link sql 
+4. exploit FTPD
+5. exploit SSH
+6. scan user Wordpress 
+7. scan XSS
+8. scan OSVDB 
+9. scan CVE 
+10. phân tích các lỗ hổng
 
 # cảnh báo 
 Tôi thực sự khuyên bạn nên sử dụng công cụ này bằng cách sử dụng Kali Linux OS Bằng cách sử dụng công cụ này, điều đó có nghĩa là bạn đồng ý với các điều khoản, điều kiện và rủi ro
