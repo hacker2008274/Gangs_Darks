@@ -166,5 +166,3 @@ echo "║                       AND AS ALWAYS                            |"
 echo "║                       HAVE NICE DAY                            ║ "
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo ""
-sleep 100
-./viesociety.sh
