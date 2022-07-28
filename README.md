@@ -2,8 +2,8 @@
 VieSociety _Vuners được viết bởi Phạm Chiến ngôn ngữ , script shell
 VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
 
-# VieSociety_Vunlners 
-công cụ Khai thác lỗ hổng bảo mật
+# Fham_Ghien
+
 
 # Chức năng
 1. scan port 
