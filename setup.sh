@@ -2,6 +2,7 @@ echo -e "\033[4;91m[+] Starting setting up ...\033[0m "
 sleep 5
 echo -e "\033[4;91m[+] installing figlet ...\033[0m"
 sleep 5
+pkg install toilet
 pkg install figlet
 echo "[+] installing nmap ..."
 pkg install nmap
