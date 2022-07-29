@@ -7,6 +7,7 @@ Mấy ông trít lỏ đừng chôm source code của tui >:v
 
 
 # Chức năng
+0. Test all Vulnerable
 1. scan port 
 2. định vị DNS và hosting
 3. scan link sql 
