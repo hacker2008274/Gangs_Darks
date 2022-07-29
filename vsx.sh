@@ -39,7 +39,7 @@ sleep 3
 echo -e "\e[1;34m[!] Thanks to : Nguyen Anh Ngoc , Tran Minh Hung , Phan Tuan Vu"
 sleep 4
 clear
-toilet --metal LOGIN TooLs
+toilet --metal test log
 echo -e "\e[1;34musername : \e[0m"
 read USERNAME
 echo -e "\e[1;34mpasword : \e[0m"
