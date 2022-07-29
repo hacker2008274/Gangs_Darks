@@ -1,5 +1,5 @@
-# VieSocietyX
-VieSociety _Vuners được viết bởi Phạm Chiến ngôn ngữ , script shell
+# VieSociety-X
+VieSociety-X được viết bởi Phạm Chiến ngôn ngữ , script shell
 VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
 
 # Đừng Chôm Source Của Phạm Chiến 
@@ -31,10 +31,12 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 4. mấy nhóc tricker lỏ đừng chôm source của anh 
 
 # Setup 
-1. git clone https://github.com/hacker2008274/VieSociety_Vulners
-2. cd VieSociety_Vulners
+1. git clone https://github.com/hacker2008274/VieSociety-X
+2. cd VieSociety-X
 3. bash setup.sh
-4. ./viesociety.sh
+4. ./vsx.sh
 
-# testa
+# đã test qua 
+1. Scan rất đúng 
+2. Nhiều đánh giá tools bá , xịn , hay 
 
