@@ -21,7 +21,8 @@
 
 clear
 echo ""
-echo "[!] Version : 2.18.1
+figlet welcome back
+echo "[!] Version : 2.18.1"
 sleep 3
 echo -e "\033[4;91m[*] facebook : https://www.facebook.com/cyberviesociety186388252799292\033[0m"
 sleep 5                                                     
