@@ -1,13 +1,13 @@
-Ơi#!/bin/bash
+#!/bin/bash
 # The Hackers RedGhost (Cyber VieSociety)
 #
 # Automated Intel-Gathering - Vulnerability Analysis - OSINT
 # Tracking - System Enumeration - And Off Course Pentesting Too
 #
-# Version : 1.0 | Codename : Waifu Sudah Lacur
-# Coded by : CYBER VIESOCIETY | Garuda Security Hacker
+# Version : 1.0 | Codename : Anh Chinh La Pham Chien 
+# Coded by : CYBER VIESOCIETY | VieSociety Hacker 
 #
-# Tested on : Kali Linux
+# Tested on : Kali Linux & termex & ubuntu & linux shell
 # I highly recommend using this tool by using Kali Linux OS
 # If You using another OS dont forget to install python and perl requirements
 #
@@ -21,6 +21,8 @@
 
 clear
 echo ""
+echo "[!] Version : 2.18.1
+sleep 3
 echo -e "\033[4;91m[*] facebook : https://www.facebook.com/cyberviesociety186388252799292\033[0m"
 sleep 5                                                     
 echo -e "\033[4;91m[•] We are Cyber VieSociety - Hackers VietNamese \033[0m"
@@ -33,6 +35,8 @@ echo -e "\033[4;91m[$] Agribank : 8800205311040 \033[0m"
 sleep 3
 echo -e "\033[4;91m[©] i am Pham Chien\033[0m"
 sleep 3
+echo -e "\e[1;34m[!] Thanks to : Nguyen Anh Ngoc , Tran Minh Hung , Phan Tuan Vu"
+sleep 4
 clear
 toilet --metal LOGIN TooLs
 echo -e "\e[1;34musername : \e[0m"
@@ -54,12 +58,14 @@ echo -e "\e[1;34m║  Thu thập Intel tự động - Phân tích lỗ hổng b�
 echo -e "\e[1;34m║ Theo dõi Liệt kê hệ thống Và Quá trình Ngũ hành Ngoài khóa học ║"
 echo -e "\e[1;34m╚════════════════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m╔════════════════════════════════════════════════════════════════╗"
-echo -e "\e[1;34m ║         Version : 1.18.1 | Codename : Pham Chien Cặk lõ      ║"
+echo -e "\e[1;34m ║         Version : 2.18.1 | Codename : Pham Chien Cặk lõ      ║"
 echo -e "\e[1;34m   ║    Coded by : CYBER VIESOCIETY | Tao là RedGhost Hackers  ║"
 echo -e "\e[1;34m    ║                    momo : 0978842516                   ║"
 echo -e "\e[1;34m     ║     Facebook : ID = cyberviesociety186388252799292   ║"
 echo -e "\e[1;34m      ╚════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui vẻ =)) "
+echo -e "\e[1;34m.        IP address : $IP
+echo -e "\e[1;34m.        User : $USERNAME
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
 echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
@@ -102,7 +108,7 @@ echo -e "\e[1;34m║                                         --PHAM CHIEN--     
 echo -e "\e[1;34m╚════════════════════════════════════════════════════════════════╝\e[0m"
 sleep 25
 echo ""
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 5
 toilet --metal Scan DNS
 nmap --script safe $TARGET
@@ -125,9 +131,9 @@ echo "║                    VIESOCIETY STARTED                          ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo ""
 echo " --PHAM_CHIEN-- :"
-echo -e "\033[4;91_OSVDB-3233 - Lỗ hổng này tồn tại trong “servlet, nơi chấp nhậntải lên tệp chưa được xác thực ”(Ribeiro,ManageEngine ServiceDesk Plus Tệp tùy ýTải lên., 2015) và không kiểm tra thông số “vid” cho các ký tự truyền tải thư mục,có thể được sử dụng để triển khai tệp WAR trong thư mục ứng dụng web\033[0m "
-echo "vui lòng , chờ thêm 1'"
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+echo -e "\033[4;91m [!] => OSVDB-3233 - Lỗ hổng này tồn tại trong “servlet, nơi chấp nhậntải lên tệp chưa được xác thực ”(Ribeiro,ManageEngine ServiceDesk Plus Tệp tùy ýTải lên., 2015) và không kiểm tra thông số “vid” cho các ký tự truyền tải thư mục,có thể được sử dụng để triển khai tệp WAR trong thư mục ứng dụng web\033[0m "
+echo "[!] vui lòng , chờ thêm 1'"
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 5
 nmap -A $TARGET
 echo "╔════════════════════════════════════════════════════════════════╗"
@@ -135,19 +141,19 @@ echo "║                    Scan Vunlner SQL I                          ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo ""
 echo " Pham Chien Said :"
-echo -e "\033[4;91mSQL injection – còn được gọi là SQLi – sử dụng những lỗ hổng trong các kênh đầu vào (input) của website để nhắm mục tiêu vào cơ sở dữ liệu nằm trong phần phụ trợ của ứng dụng web, nơi lưu giữ những thông tin nhạy cảm và có giá trị nhất\033[0m "
+echo -e "\033[4;91m [!] => SQL injection – còn được gọi là SQLi – sử dụng những lỗ hổng trong các kênh đầu vào (input) của website để nhắm mục tiêu vào cơ sở dữ liệu nằm trong phần phụ trợ của ứng dụng web, nơi lưu giữ những thông tin nhạy cảm và có giá trị nhất\033[0m "
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
 sleep 3
 nmap -p $PORT --script http-sql-injection $TARGET
 sleep 3
 echo ""
-figlet Scan vulners FTFD
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+toilet --gay Scan vulners FTFD
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 10
 nmap -p 21 -A $TARGET
 sleep 4
-figlet Scan SSH
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+toilet --metal Scan SSH
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 3
 ssh $TARGET:$PORT
 sleep 5
@@ -155,24 +161,24 @@ echo "╔═══════════════════════�
 echo "║                Scan user Wordpress Starting                    ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo "Chien said : "
-echo -e "\033[4;91mLỗ hổng WordPress được phân loại là giả mạo cross-site (CSRF) và được theo dõi dưới mã CVE-2022-0215 với mức nguy hiểm 8.8 theo thang CVSS. Nó ảnh hưởng tới ba plugin được duy trì bởi Xootix: Login/Signup Popup (Inline Form + Woocommerce)\033[0m "
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+echo -e "\033[4;91m [!] => Lỗ hổng WordPress được phân loại là giả mạo cross-site (CSRF) và được theo dõi dưới mã CVE-2022-0215 với mức nguy hiểm 8.8 theo thang CVSS. Nó ảnh hưởng tới ba plugin được duy trì bởi Xootix: Login/Signup Popup (Inline Form + Woocommerce)\033[0m "
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 3
 nmap -p $PORT --script http-wordpress-users $TARGET
 echo "╔════════════════════════════════════════════════════════════════╗"
 echo "║                   XSS Scanning Finished                        ║"
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo "Chiến said :"
-echo -e " \033[4;91mXSS là tên viết tắt của Cross-site scripting. Đây là một hình thức tấn công bằng mã độc phổ biến. Các hacker sẽ lợi dụng lỗ hổng trong bảo mật web để chèn các mã script, sau đó gửi cho người dùng để truy cập và mạo danh người dùng \033[0m "
-echo -e "\033[4;91mexploiting $TARGET\033[0m"
+echo -e " \033[4;91m [!] => XSS là tên viết tắt của Cross-site scripting. Đây là một hình thức tấn công bằng mã độc phổ biến. Các hacker sẽ lợi dụng lỗ hổng trong bảo mật web để chèn các mã script, sau đó gửi cho người dùng để truy cập và mạo danh người dùng \033[0m "
+echo -e "\033[4;91m[•] exploiting $TARGET\033[0m"
 sleep 3
 nmap -p $PORT --script http-stored-xss.nse $TARGET
-figlet Scan CVE
+toilet --gay Scan CVE
 echo -e "\033[4;91mexploiting $TARGET\033[0m"
 sleep 3
 nmap -sV --script vulners --script-args  minvcss=5.0 $TARGET
 echo " Chien said:"
-echo -e "\033[4;91mBản chất đây là thuật ngữ được viết tắt từ cụm tiếng Anh Common Vulnerabilities and Exposures. Bạn có thể hiểu đây là danh sách các lỗi bảo mật máy tính công khai. Một khi nhắc đến CVE có nghĩa là đang nói về một lỗ hổng bảo mật đã được gắn một số CVE ID.\033[0m "
+echo -e "\033[4;91m [!] => Bản chất đây là thuật ngữ được viết tắt từ cụm tiếng Anh Common Vulnerabilities and Exposures. Bạn có thể hiểu đây là danh sách các lỗi bảo mật máy tính công khai. Một khi nhắc đến CVE có nghĩa là đang nói về một lỗ hổng bảo mật đã được gắn một số CVE ID.\033[0m "
 echo "╔════════════════════════════════════════════════════════════════╗"
 echo "║                 Khai Thác đã Hoàn Thành                        ║"
 echo "║                     HOPE YOU ENJOY IT                          ║ "
@@ -180,3 +186,4 @@ echo "║                       AND AS ALWAYS                            |"
 echo "║                       HAVE NICE DAY                            ║ "
 echo "╚════════════════════════════════════════════════════════════════╝"
 echo ""
+echo -e "\033[4;91m thanks bạn đã dùng tools "
