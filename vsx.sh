@@ -64,8 +64,8 @@ echo -e "\e[1;34m    ║                    momo : 0978842516                   
 echo -e "\e[1;34m     ║     Facebook : ID = cyberviesociety186388252799292   ║"
 echo -e "\e[1;34m      ╚════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m         chúc mấy thằng nhóc trích lỏ dùng tun vui vẻ =)) "
-echo -e "\e[1;34m.        IP address : $IP
-echo -e "\e[1;34m.        User : $USERNAME
+echo -e "\e[1;34m         IP address : $IP "
+echo -e "\e[1;34m         User : $USERNAME "
 echo -e "\e[1;34m══════════════════════════════════════════════════════════════════"
 echo -e "\033[4;91mđiền nạn nhân vào đây , bỏ http:// nhé ( ví dụ : testphp.vulnweb.com) :\033[0m "
 read TARGET
