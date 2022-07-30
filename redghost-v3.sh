@@ -1,11 +1,11 @@
 #!/bin/bash
-# The Hackers RedGhost (Cyber VieSociety)
+# The Hackers RedGhost (Duck Oni-Chan) Team
 #
 # Automated Intel-Gathering - Vulnerability Analysis - OSINT
 # Tracking - System Enumeration - And Off Course Pentesting Too
 #
 # Version : 1.0 | Codename : Anh Chinh La Pham Chien 
-# Coded by : CYBER VIESOCIETY | VieSociety Hacker 
+# Coded by : Pham Chien | Duck Oni Chan 
 #
 # Tested on : Kali Linux & termex & ubuntu & linux shell
 # I highly recommend using this tool by using Kali Linux OS
@@ -26,7 +26,7 @@ echo "[!] Version : 2.18.1"
 sleep 3
 echo -e "\033[4;91m[*] facebook : https://www.facebook.com/cyberviesociety186388252799292\033[0m"
 sleep 5                                                     
-echo -e "\033[4;91m[•] We are Cyber VieSociety - Hackers VietNamese \033[0m"
+echo -e "\033[4;91m[•] We are Duck Oni-Chan - Hackers VietNamese \033[0m"
 sleep 5
 echo -e "\033[4;91m[$] telegram : 0978842516 \033[0m"
 sleep 5
@@ -36,7 +36,7 @@ echo -e "\033[4;91m[$] Agribank : 8800205311040 \033[0m"
 sleep 3
 echo -e "\033[4;91m[©] i am Pham Chien\033[0m"
 sleep 3
-echo -e "\e[1;34m[!] Thanks to : Nguyen Anh Ngoc , Tran Minh Hung , Phan Tuan Vu"
+echo -e "\e[1;34m[!] Thanks to : Nguyen Anh Ngoc"
 sleep 4
 clear
 toilet --metal test log
@@ -47,20 +47,21 @@ read PASS
 echo -e "\e[1;34mIP address : \e[0m"
 read IP
 clear
-echo -e "\e[1;34m██╗   ██╗██╗███████╗███████╗ ██████╗  ██████╗██╗███████╗████████╗██╗   ██╗\e[0m"
-echo -e "\e[1;34m██║   ██║██║██╔════╝██╔════╝██╔═══██╗██╔════╝██║██╔════╝╚══██╔══╝╚██╗ ██╔╝\e[0m"
-echo -e "\e[1;34m██║   ██║██║█████╗  ███████╗██║   ██║██║     ██║█████╗     ██║    ╚████╔╝ "
-echo -e "\e[1;34m╚██╗ ██╔╝██║██╔══╝  ╚════██║██║   ██║██║     ██║██╔══╝     ██║     ╚██╔╝  "
-echo -e "\e[1;34m ╚████╔╝ ██║███████╗███████║╚██████╔╝╚██████╗██║███████╗   ██║      ██║   "
-echo -e "\e[1;34m  ╚═══╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═════╝╚═╝╚══════╝   ╚═╝      ╚═╝   "
-echo -e "\e[1;34m            ~~ THE CYBER VIESOCIETY AND DUCK ONI-CHAN ~~        "
+echo -e "\e[1;34m\e[0m"
+echo -e "\e[1;34m\e[0m"
+echo -e "\e[1;34m"
+echo -e "\e[1;34m"
+echo -e "\e[1;34m"
+echo -e "\e[1;34m"
+figlet RedGhost-V3
+echo -e "\e[1;34m            ~~ THE HACKERS PHAM CHIEN AND NGUYEN ANH NGOC ~~        "
 echo -e "\e[1;34m╔════════════════════════════════════════════════════════════════╗"
 echo -e "\e[1;34m║  Thu thập Intel tự động - Phân tích lỗ hổng bảo mật - OSINT    ║"
 echo -e "\e[1;34m║ Theo dõi Liệt kê hệ thống Và Quá trình Ngũ hành Ngoài khóa học ║"
 echo -e "\e[1;34m╚════════════════════════════════════════════════════════════════╝"
 echo -e "\e[1;34m╔════════════════════════════════════════════════════════════════╗"
 echo -e "\e[1;34m ║         Version : 2.18.1 | Codename : Pham Chien Cặk lõ      ║"
-echo -e "\e[1;34m   ║    Coded by : CYBER VIESOCIETY | Tao là RedGhost Hackers  ║"
+echo -e "\e[1;34m   ║    Coded by : Fham Chinn| Tao là RedGhost Hackers  ║"
 echo -e "\e[1;34m    ║                    momo : 0978842516                   ║"
 echo -e "\e[1;34m     ║     Facebook : ID = cyberviesociety186388252799292   ║"
 echo -e "\e[1;34m      ╚════════════════════════════════════════════════════╝"
