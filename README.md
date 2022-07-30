@@ -1,6 +1,6 @@
-# VieSociety-X
-VieSociety-X được viết bởi Phạm Chiến ngôn ngữ , script shell
-VieSociety là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
+# The-RedGhost
+The-Redghost được viết bởi Phạm Chiến ngôn ngữ , script shell
+The RedGhost là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
 
 # Đừng Chôm Source Của Phạm Chiến 
 Mấy ông trít lỏ đừng chôm source code của tui >:v
