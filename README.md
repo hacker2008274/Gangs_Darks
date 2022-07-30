@@ -31,10 +31,11 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 4. mấy nhóc tricker lỏ đừng chôm source của anh 
 
 # Setup 
-1. git clone https://github.com/hacker2008274/VieSociety-X
-2. cd VieSociety-X
+1. git clone https://github.com/hacker2008274/ReGhost-V3
+2. cd RedGhost-V3
 3. bash setup.sh
-4. ./vsx.sh
+4. ./redghost-v3.sh
+
 
 # đã test qua 
 1. Scan rất đúng 
