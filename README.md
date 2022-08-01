@@ -1,6 +1,6 @@
-# The-RedGhost
-The-Redghost được viết bởi Phạm Chiến ngôn ngữ , script shell
-The RedGhost là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
+# Gangs Dark
+Gangs Darks được viết bởi Phạm Chiến ngôn ngữ , script shell
+Gangs Darks là một công cụ kiểm tra thâm nhập tự động, công cụ này sẽ kiểm tra tất cả các phương pháp kiểm tra bảo mật tiêu chuẩn cho bạn.
 
 # Đừng Chôm Source Của Phạm Chiến 
 Mấy ông trít lỏ đừng chôm source code của tui >:v
@@ -31,10 +31,10 @@ Bằng cách sử dụng công cụ này, bạn đồng ý rằng
 4. mấy nhóc tricker lỏ đừng chôm source của anh 
 
 # Setup 
-1. git clone https://github.com/hacker2008274/ReGhost-V3
-2. cd RedGhost-V3
+1. git clone https://github.com/hacker2008274/Gangs_Darks
+2. cd Gangs_Darks
 3. bash setup.sh
-4. ./redghost-v3.sh
+4. ./gang.sh
 
 
 # đã test qua 
